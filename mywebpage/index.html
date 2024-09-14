@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html>
+
+	<head>
+		<title>Личная страница</title>
+	 	<!-- Required meta tags -->
+	 	<meta charset="utf-8">
+	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description" content="Личная страница и контакты">
+
+		<!-- Bootstrap Core CSS -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	</head>
+	
+<!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
+	<body style="background-color:#c3b49f">
+
+
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+
+			<div class="container"> 
+				<div class="navbar-header"> 
+					<a href="https://ling.hse.ru/" class="navbar-brand" style="font-family:Playfair Display, serif">Школа лингвистики НИУ ВШЭ</a> 
+				</div> 
+				<nav class="collapse navbar-collapse" id="bs-navbar"> 
+					<ul class="nav navbar-nav navbar-right"> 
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html" style="font-family:Playfair Display, serif">Страница курса</a> </li> 
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_4.html" style="font-family:Playfair Display, serif">Страница группы</a> </li> 
+					</ul>
+				</nav> 
+			</div>
+		</nav>
+
+<!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
+
+		<header style="background-color:#445c65; padding-top:70px; "> 
+			<div class="container"> 
+				<div class="row">
+					<div class="col-md-4">
+						<br><br>
+<!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
+						<h1 style="color:#2c2a25; font-family:Playfair Display, serif">Лиза Рыжова</h1>
+						<hr> <!-- это горизонтальная линия -->
+						<p style="color:#2c2a25; font-size:18px; font-family:Playfair Display, serif"><i>Человек, <b>не</b> умеющий создавать HTML</i></p>
+					</div>
+					<div class="col-md-4">
+<!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
+<!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
+<img src="https://raw.githubusercontent.com/urufjh/lingdata/main/mywebpage/myphoto.jpg" style="height:320px; margin:20px 20px 40px 380px; " >
+					</div>
+				</div>
+			</div>
+		</header>
+
+<!-- часть страницы, которая под шапкой -->
+		<section id="portfolio">
+			<div class="container">
+
+<!-- атрибут col-md-... говорит, что контент будет разделен на несколько столбцов, их ширина соотносится как 3 - 6 - 3 (Bootstrap использует воображаемую сетку из 12 равных по ширине колонок) -->
+				<div class="col-md-3">
+
+<!-- <article> не влияет на оформление, но помогает структурировать контент на осмысленые разделы -->
+					<article>
+						<h3 style="color:#6c5332; font-family:Playfair Display, serif">Место учебы</h3>
+						<p style="color:#6c5332; font-family:Playfair Display, serif">Фундаментальная и прикладная лингвистика, НИУ ВШЭ, Москва</p>
+					</article>
+					<article>
+						<h3 style="color:#6c5332; font-family:Playfair Display, serif">Родной город</h3>
+						<p style="color:#6c5332; font-family:Playfair Display, serif">Балашиха</p>
+					</article>
+					<article>
+						<h3 style="color:#6c5332; font-family:Playfair Display, serif">Школа</h3>
+<!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста -->
+						<p style="color:#6c5332; font-family:Playfair Display, serif">№30</p>
+					</article>
+				</div>
+
+				<div class="col-md-6">
+					<article>
+						<h3 style="color:#6c5332; font-family:Playfair Display, serif">Тут можно написать</h3>
+						<p style="color:#6c5332; font-family:Playfair Display, serif">Еще много много много много много много <br>
+						много <br>
+						много <br>
+						много <br>
+						много <br>
+						много <br>
+						много <br>
+						много <br>
+						всего о себе</p>
+					</article>
+				</div>
+
+				<div class="col-md-3">
+					<h3 style="color:#6c5332; font-family:Playfair Display, serif">Я в соцсетях</h3>
+<!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
+					<ul>
+						<li style="color:#6c5332; font-family:Playfair Display, serif">VK</li>
+						<li style="color:#6c5332; font-family:Playfair Display, serif">Discord</li>
+						<li style="color:#6c5332; font-family:Playfair Display, serif">Telegram</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+<!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
+		<footer class="bs-docs-footer"> 
+			<div class="container"> 
+				<p style="text-align:right;color:#6c5332; font-family:Playfair Display, serif">&copy; Е. Рыжова, 2024</p> 
+			</div>
+		</footer>
+	</body>
+</html>
