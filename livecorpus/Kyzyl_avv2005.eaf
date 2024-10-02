@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-10-02T20:23:07+03:00"
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2024-10-02T21:07:57+03:00"
     FORMAT="3.0" VERSION="3.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
         <MEDIA_DESCRIPTOR
-            MEDIA_URL="file:///C:/Users/Liza/Downloads/Kyzyl_avv2006.mp4"
+            MEDIA_URL="file:///C:/Users/Liza/Downloads/Documents/j/линда/Kyzyl_avv2006.mp4"
             MIME_TYPE="video/mp4" RELATIVE_MEDIA_URL="./Kyzyl_avv2006.mp4"/>
         <PROPERTY NAME="URN">urn:nl-mpi-tools-elan-eaf:975f6704-a15d-4e18-9643-b0efe235d48f</PROPERTY>
         <PROPERTY NAME="lastUsedAnnotationId">26</PROPERTY>
@@ -21,29 +21,23 @@
         <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="569090"/>
         <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="569990"/>
         <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="570590"/>
-        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="571450"/>
-        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="571890"/>
-        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="572240"/>
-        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="572880"/>
-        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="573970"/>
-        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="574870"/>
-        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="575310"/>
-        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="575640"/>
-        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="578060"/>
-        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="578880"/>
-        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="579270"/>
-        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="580430"/>
-        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="580890"/>
-        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="581540"/>
-        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="582860"/>
-        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="583420"/>
-        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="585130"/>
-        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="585210"/>
-        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="587510"/>
-        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="587770"/>
-        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="588780"/>
-        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="589510"/>
-        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="592260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="573970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="574870"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="575310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="575640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="578060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="578880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="579270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="580430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="582860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="583420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="585130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="585210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="587510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="587770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="588780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="589510"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="592260"/>
     </TIME_ORDER>
     <TIER ANNOTATOR="urufjh" DEFAULT_LOCALE="ru"
         LINGUISTIC_TYPE_REF="utterance" PARTICIPANT="@avv2006f" TIER_ID="text@avv2006f">
@@ -80,72 +74,54 @@
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11"
                 TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
-                <ANNOTATION_VALUE>злодей герой</ANNOTATION_VALUE>
-            </ALIGNABLE_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12"
-                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
-                <ANNOTATION_VALUE>такой</ANNOTATION_VALUE>
-            </ALIGNABLE_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13"
-                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
-                <ANNOTATION_VALUE>эм антагонист</ANNOTATION_VALUE>
+                <ANNOTATION_VALUE>злодей герой / такой / эм антагонист</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15"
-                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
                 <ANNOTATION_VALUE>э вот</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16"
-                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
                 <ANNOTATION_VALUE>а там / конечно / дейнерис просто</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19"
-                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
                 <ANNOTATION_VALUE>э</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20"
-                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
-                <ANNOTATION_VALUE>очень</ANNOTATION_VALUE>
-            </ALIGNABLE_ANNOTATION>
-        </ANNOTATION>
-        <ANNOTATION>
-            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21"
-                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
-                <ANNOTATION_VALUE>так хорошо вышла</ANNOTATION_VALUE>
+                TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>очень / так хорошо вышла</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22"
-                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
                 <ANNOTATION_VALUE>а все персонажи они неоднозначные</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23"
-                TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
                 <ANNOTATION_VALUE>они / и положительные и отрицательные</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24"
-                TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
                 <ANNOTATION_VALUE>э нельзя судить</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
         <ANNOTATION>
             <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25"
-                TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
                 <ANNOTATION_VALUE>эм по ним ч= там что они хорошие или плохие</ANNOTATION_VALUE>
             </ALIGNABLE_ANNOTATION>
         </ANNOTATION>
